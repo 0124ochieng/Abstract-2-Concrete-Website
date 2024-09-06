@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: white;
+
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid hsl(0, 0%, 90%);
+    border-radius: 10px;
+    
+}
+@media (max-width: 900px) {
+    body {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+@media (max-width) {
+    body {
+        padding: 5px;
+    }
+}
+
+header {
+    text-align: center;
+}
+
+.quote-image {
+    width: 75%;
+}
