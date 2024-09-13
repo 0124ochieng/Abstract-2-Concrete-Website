@@ -13,6 +13,7 @@ function Introduction() {
             </header> 
             <hr/>   
                 <img className='quote-image' src={banner} alt='quote'/>
+            <hr/>
             
         </div>
     )
