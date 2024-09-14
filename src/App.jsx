@@ -1,15 +1,14 @@
-import Introduction from './Introduction.jsx';
+import Introduction from './Introduction';
 import Article1 from './Article1';
-import Newsletter from './Newsletter.jsx';
+import Article2 from './Article2'
 
 function App() {
   return(
     <>
       
       <Introduction />
-      <Newsletter />
       <Article1 />
-      
+      <Article2 />
     </>
   )
 }

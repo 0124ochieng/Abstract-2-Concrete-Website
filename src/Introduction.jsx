@@ -1,5 +1,4 @@
-import banner from './assets/webBanner.png';
-
+import banner from './assets/twitterPost.png';
 
 function Introduction() {
 
@@ -9,7 +8,7 @@ function Introduction() {
                 <h1>
                     Abstract To Concrete
                 </h1>
-                <h3>Making ideas and reality merge</h3>
+                <h3>Merging Ideas and Reality</h3>
             </header> 
             <hr/>   
                 <img className='quote-image' src={banner} alt='quote'/>
